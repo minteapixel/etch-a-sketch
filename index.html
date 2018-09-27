@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Etch-A-Sketch</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+	<link rel="stylesheet" href="scripts.js">
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="one">
+			<h3>1 Header Etch-A-Sketch</h3>
+		</div>
+
+		<div class="two">
+			<h4>2 Instructions: </h4>
+			<p> Simply hover over the gray grid with your mouse to start sketching!</p>
+			Enter in a number below to re-size your grid: 
+			<p></p>
+
+			<center>
+				<form>
+					<input type="text" id="userNum" name="gridSize" value="0"> &nbsp;
+					<input type="submit" value="Create Grid" onclick="return gridCreate();">
+				</form>
+
+			<p>Change Modes:</p>
+			<button>Shades of Gray</button>
+			<button id="psych">Psychedelic</button>
+			<button id="erase">Erase Screen</button>
+			</center>
+		</div>
+
+		<div class="three">
+			<h3>Etch A Sketch</h3>
+			<div id="grid"></div>
+		</div>
+
+		<div class="five">
+			<h4>5 Footer</h4>
+			<p>insert footer here </p>
+		</div>
+
+	</div>
+	<script src="scripts.js"></script>
+
+</body>
+</html>
